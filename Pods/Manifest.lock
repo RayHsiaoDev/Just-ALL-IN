@@ -1,0 +1,16 @@
+PODS:
+  - LightweightCharts (4.0.0)
+
+DEPENDENCIES:
+  - LightweightCharts (~> 4.0.0)
+
+SPEC REPOS:
+  trunk:
+    - LightweightCharts
+
+SPEC CHECKSUMS:
+  LightweightCharts: 1a14ed148f3272f7493d152cfe8244f12d5f9224
+
+PODFILE CHECKSUM: 884ade194eab07e48c075fdb07c3c4f96dec06b8
+
+COCOAPODS: 1.15.2
