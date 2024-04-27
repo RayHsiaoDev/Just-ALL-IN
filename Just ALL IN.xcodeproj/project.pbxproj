@@ -12,6 +12,9 @@
 		8538A5CB2BC81C59005F245C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538A5CA2BC81C59005F245C /* ViewController.swift */; };
 		8538A5D12BC81C59005F245C /* Just_ALL_IN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8538A5CF2BC81C59005F245C /* Just_ALL_IN.xcdatamodeld */; };
 		8538A5D32BC81C5A005F245C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8538A5D22BC81C5A005F245C /* Assets.xcassets */; };
+		8538A5DE2BCFA756005F245C /* NetworkManarger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538A5DD2BCFA756005F245C /* NetworkManarger.swift */; };
+		8538A5E02BCFB450005F245C /* Candles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538A5DF2BCFB450005F245C /* Candles.swift */; };
+		8538A5E22BCFB6CE005F245C /* CError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538A5E12BCFB6CE005F245C /* CError.swift */; };
 		B4F3C2FE14B7FA6F899894DD /* Pods_Just_ALL_IN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1EFE8E87013D9DB6E98BE3 /* Pods_Just_ALL_IN.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		8538A5D02BC81C59005F245C /* Just_ALL_IN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Just_ALL_IN.xcdatamodel; sourceTree = "<group>"; };
 		8538A5D22BC81C5A005F245C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8538A5D72BC81C5A005F245C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8538A5DD2BCFA756005F245C /* NetworkManarger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManarger.swift; sourceTree = "<group>"; };
+		8538A5DF2BCFB450005F245C /* Candles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candles.swift; sourceTree = "<group>"; };
+		8538A5E12BCFB6CE005F245C /* CError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CError.swift; sourceTree = "<group>"; };
 		8E1EFE8E87013D9DB6E98BE3 /* Pods_Just_ALL_IN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Just_ALL_IN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,7 +52,6 @@
 				2D9BAE26658F4FB379A9E73B /* Pods-Just ALL IN.debug.xcconfig */,
 				5844E3B57AAEB67BB8A2223E /* Pods-Just ALL IN.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +90,9 @@
 				8538A5D22BC81C5A005F245C /* Assets.xcassets */,
 				8538A5D72BC81C5A005F245C /* Info.plist */,
 				8538A5CF2BC81C59005F245C /* Just_ALL_IN.xcdatamodeld */,
+				8538A5DD2BCFA756005F245C /* NetworkManarger.swift */,
+				8538A5DF2BCFB450005F245C /* Candles.swift */,
+				8538A5E12BCFB6CE005F245C /* CError.swift */,
 			);
 			path = "Just ALL IN";
 			sourceTree = "<group>";
@@ -203,8 +211,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8538A5D12BC81C59005F245C /* Just_ALL_IN.xcdatamodeld in Sources */,
+				8538A5DE2BCFA756005F245C /* NetworkManarger.swift in Sources */,
 				8538A5CB2BC81C59005F245C /* ViewController.swift in Sources */,
 				8538A5C72BC81C59005F245C /* AppDelegate.swift in Sources */,
+				8538A5E22BCFB6CE005F245C /* CError.swift in Sources */,
+				8538A5E02BCFB450005F245C /* Candles.swift in Sources */,
 				8538A5C92BC81C59005F245C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
